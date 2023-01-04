@@ -128,3 +128,45 @@ img{
 .about .about-img{
   flex: 1 1 160px;
 }
+
+/* - - - PRODUCTS - - -*/
+
+.products{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 16px;
+}
+
+.products h2{
+  font-size: 2rem;
+}
+
+.products .products-list{
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.products-item{
+  flex: 1 1 175px;
+}
+
+.products .products-list .products-item h2{
+  font-size: 3rem;
+  background: #f7f7f7;
+  color: #a4a4a4;
+  padding: 60px 20px;
+}
+
+.purple{
+  border-top: 8px solid #ae81ff;
+}
+
+.pink{
+  border-top: 8px solid #f9265e;
+}
+
+.blue{
+  border-top: 8px solid #66d9eb;
+}
