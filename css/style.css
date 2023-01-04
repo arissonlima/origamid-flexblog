@@ -170,3 +170,80 @@ img{
 .blue{
   border-top: 8px solid #66d9eb;
 }
+
+/* - - - PLANS - - -*/
+
+.plans{
+  background: #f7f7f7;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.plans .plans-item{
+  border: 4px solid #ffffff;
+  padding: 20px;
+  min-width: 400px;
+}
+
+.plans .plans-item h2{
+  margin-top: 20px;
+  font-size: 3rem;
+  color: #a4a4a4;
+  text-align: center;
+}
+
+.plans .plans-item span{
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  max-width: 300px;
+  margin: 20px auto;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 10px 0 5px 0;
+  text-align: center;
+}
+
+.plans .plans-item sup{
+  font-size: 1.5rem;
+}
+
+.plans .plans-item ul{
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #7c7c7c;
+}
+
+.plans .plans-item li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.plans .plans-item li::after{
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #2c70ff;
+  border-radius: 50%;
+}
+
+.plans .plans-item a{
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.25rem;
+  padding: 15px 0;
+  text-align: center;
+}
