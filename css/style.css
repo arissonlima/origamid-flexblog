@@ -1,0 +1,87 @@
+/* - - - RESET - - -*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+/* - - - INFORMATION BAR - - -*/
+
+.information-bar-bg{
+  background: #122ab2;
+  color: #ffffff;
+}
+
+.information-bar{
+  display: flex;
+  max-width: 1440px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.information-bar p, .information-bar a{
+  margin: 16px;
+}
+
+.information-bar a{
+  color: #ffffff;
+}
+
+/* - - - HEADER - - -*/
+
+.header-bg{
+  background: #2c70ff;
+}
+
+.header{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header .header-logo a{
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.header .header-menu ul{
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.header .header-menu a{
+  color: #ffffff;
+}
+
+.header .header-menu a:hover{
+  color: #122ab2;
+}
