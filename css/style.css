@@ -355,3 +355,19 @@ img{
   border: 0px;
   padding: 15px 10px;
 }
+
+/* - - - FOOTER - - -*/
+
+.footer{
+  background: #2c70ff;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p{
+  font-size: 2rem;
+  color: #122ab2;
+  align-self: center;
+}
