@@ -308,6 +308,7 @@ img{
   display: flex;
   align-items: center;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .newsletter h2{
@@ -370,4 +371,13 @@ img{
   font-size: 2rem;
   color: #122ab2;
   align-self: center;
+}
+
+/* - - - MEDIA QUERIES - - -*/
+
+@media(max-width: 600px){
+  .qualities .qualities-item{
+    flex: 1 1 260px;
+    margin: 16px;
+  }
 }
